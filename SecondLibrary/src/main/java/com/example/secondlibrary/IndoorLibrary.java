@@ -26,14 +26,17 @@ public class IndoorLibrary {
 
     public static void getNavFragment(Context c)
     {
-        Intent intent = null;
+
+        ToasterLibrary.getNavFragment(c,0);
+
+/*        Intent intent = null;
         try {
             intent = new Intent(c,Class.forName("com.example.fragmentTest") );
             c.startActivity(intent);
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
 
